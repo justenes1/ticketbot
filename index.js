@@ -1,4 +1,5 @@
 require('dotenv').config();
+require("./keep_alive.js");
 const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, ModalBuilder, TextInputBuilder, TextInputStyle, PermissionFlagsBits, ChannelType, AttachmentBuilder } = require('discord.js');
 const { Pool } = require('pg');
 
